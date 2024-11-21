@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 254px;
+        height: 55px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        transition: 0.5s ease;
+    }
+
+    button:hover{
+        background:black ;
+        color: white;
+    }
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.products_container {
+
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+}
+
+.products_container a img {
+    width: 100%;
+    height: auto;
+}
+
+.products_container .data {
+    padding: 20px;
+    text-align: left;
+    background-color: #000;
+}
+
+.products_container h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: white;
+}
+
+.products_container p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: white;
+    margin: 10px 0;
+}
+
+.products_container .into_bucket {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    background-color: white;
+    color: blackц;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.products_container .into_bucket:hover {
+    background-color: skyblue;
+    color: white;
+}
